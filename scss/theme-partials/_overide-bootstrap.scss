@@ -1,0 +1,6 @@
+html{
+    font-size: 10px; //na ovaj nacin mozemo lako kasnije da odredjujemo velicine npr ako nam za neki element treba da iznosi 21px stavicemo 2.1rem
+}
+
+//Na ovaj nacin smo definisali da je nas rem 10px i kasnije lako mozemo da ga koristimo  
+$font-size-base:1.6rem;

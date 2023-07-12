@@ -1,0 +1,16 @@
+@import 'theme-partials/overide-bootstrap';
+@import 'bootstrap.scss';
+//Na ovaj nacin smo ukljucili sve te bootstrap-ove neophodne fajlove u okviru 
+//naseg projekta tako da u svim nasim partials-ima u kojima budemo pisali 
+//bice nam dostupne sve ove bootstrapove komponente
+
+
+@import 'theme-partials/fonts';
+@import 'theme-partials/animations';
+//ovo je neki globalni stil
+
+
+@import 'theme-partials/base';
+//potom ide basic scss
+
+//Ispod ce doci svi sledeci partials-i za header,footer i itd..
