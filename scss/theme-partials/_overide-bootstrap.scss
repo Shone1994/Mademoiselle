@@ -4,3 +4,12 @@ html{
 
 //Na ovaj nacin smo definisali da je nas rem 10px i kasnije lako mozemo da ga koristimo  
 $font-size-base:1.6rem;
+
+$grid-gutter-width: 12px; //po difoltu je 30px
+
+//difoltna boja je color za body: $body-color: $gray-900 !default;
+$gray-900: #1e1e1e; //definisemo nasu boju
+
+$primary: #D0B6B6; //sada kada god koristimo klasu npr btn-primary, bg-primary da uvek bude ova nasa nijansa
+
+$light: #1E1E1E;

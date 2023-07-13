@@ -1,4 +1,74 @@
-
+$base-font: $lato;
+$text-color: $light;
 img{
     max-width: 100%;//sprecavamo da nam slike iskacu iz naseg okvira
+}
+
+body{
+    font-family: $base-font;
+    color: $text-color;
+}
+
+h1{
+    font-family: $bodoni-book;
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 1rem;
+    color: $white;
+}
+h2{
+    font-family: $lato;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: $light;
+}
+h3{
+    font-family: $bodoni-book;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 5px;
+    color: $light;
+}
+@media(min-width:992px){
+    h1{
+        font-family: $bodoni-book;
+        font-size: 6rem;
+        line-height: 8.4rem;
+        letter-spacing: 2rem;
+        color: $white;
+    }
+    h2{
+        font-family: $lato;
+        font-size: 3.6rem;
+        line-height: 4.4rem;
+        color: $light;
+    }
+    h3{
+    font-family: $bodoni-book;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    color: $light;
+}
+}
+
+//line
+.line{
+    width: 74px;
+    height: 1px;
+    background: $primary;
+    margin-bottom: 46px;
+}
+
+.lear-more{
+    padding: 15px 20px;
+    border: 1px solid $light;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bg-gray{
+    background-color: #F5F5F5;
+    color: $light;
 }

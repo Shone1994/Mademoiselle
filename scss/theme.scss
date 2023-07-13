@@ -14,3 +14,9 @@
 //potom ide basic scss
 
 //Ispod ce doci svi sledeci partials-i za header,footer i itd..
+@import 'theme-partials/header';
+@import 'theme-partials/lead-section';
+@import 'theme-partials/home-page';
+@import 'theme-partials/services';
+@import 'theme-partials/slider';
+@import 'theme-partials/footer';

@@ -1,0 +1,29 @@
+
+
+.lead-page-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    // background-attachment: fixed;
+
+    .lead-item{
+        .lead-item-title{
+            padding: 150px 30px;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .lead-page-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-attachment: fixed;
+    
+        .lead-item{
+            .lead-item-title{
+                padding: 250px 0 269px;
+            }
+        }
+    }
+}

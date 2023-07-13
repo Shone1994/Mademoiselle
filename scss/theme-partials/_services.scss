@@ -1,0 +1,32 @@
+//.our-services style
+.our-services{
+    padding-bottom: 118px;
+    .our-services-item{
+         padding: 60px 30px;
+         .our-services-item-title{
+            margin-bottom: 4.4rem;
+         }
+         figure{
+            img{
+                width: 100%;
+            }
+         }
+        }
+    }
+
+@media(min-width:992px){
+    .our-services{
+        .our-services-item{
+             padding: 130px 95px;
+             .our-services-item-title{
+                margin-bottom: 4.4rem;
+             }
+             figure{
+                img{
+                    width: 100%;
+                    display: block;
+                }
+             }
+            }
+        }
+}

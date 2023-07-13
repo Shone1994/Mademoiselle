@@ -1,0 +1,31 @@
+
+
+.beauty-trands{
+    padding: 50px 0;
+    .beauty-trands-item{
+        figure{
+            overflow: hidden;
+            transition: all 0.5 linear;
+            img{
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .beauty-trands-info{
+            position: absolute;
+            bottom: -20px;
+            left: 10%;
+            right: 10%;
+            width: 80%;
+            background-color: $white;
+            padding: 20px 10px;
+            z-index: 5;
+            .beauty-trands-date{
+            font-style: italic;
+            }
+        }
+        
+    }
+}
+

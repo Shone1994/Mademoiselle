@@ -1,0 +1,16 @@
+
+
+footer{
+    .social{
+        a{
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 2rem;
+
+            transition: all 1s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
