@@ -12368,4 +12368,40 @@ footer .social a {
 }
 footer .social a:hover {
   transform: rotate(360deg);
+}
+
+.about-section {
+  padding: 50px 0;
+}
+.about-section .about-item img {
+  width: 100%;
+}
+.about-section .about-sidebar {
+  padding: 50px 0;
+}
+.about-section .about-sidebar .beauty-trands-item figure {
+  overflow: hidden;
+  transition: all 0.5 linear;
+}
+.about-section .about-sidebar .beauty-trands-item figure img:hover {
+  transform: scale(1.1);
+}
+.about-section .about-sidebar .beauty-trands-item .beauty-trands-info {
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  background-color: #fff;
+  padding: 20px 10px;
+  z-index: 5;
+}
+.about-section .about-sidebar .beauty-trands-item .beauty-trands-info .beauty-trands-date {
+  font-style: italic;
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    padding: 102px 0 159px;
+  }
 }/*# sourceMappingURL=theme.css.map */

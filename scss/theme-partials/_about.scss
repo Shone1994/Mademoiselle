@@ -1,0 +1,51 @@
+
+
+.about-section{
+   
+    padding: 50px 0;
+    .about-item{
+        img{
+            width: 100%;
+        }
+    }//.about-item end
+    
+    .about-sidebar{
+            padding: 50px 0;
+            .beauty-trands-item{
+                figure{
+                    overflow: hidden;
+                    transition: all 0.5 linear;
+                    img{
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                .beauty-trands-info{
+                    position: absolute;
+                    bottom: -20px;
+                    left: 10%;
+                    right: 10%;
+                    width: 80%;
+                    background-color: $white;
+                    padding: 20px 10px;
+                    z-index: 5;
+                    .beauty-trands-date{
+                    font-style: italic;
+                    }
+                }
+                
+            }
+        
+    }
+    
+    
+}
+
+
+@media(min-width:992px){
+    .about-section{
+        padding: 102px 0 159px;
+    }
+    
+}
