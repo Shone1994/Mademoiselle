@@ -12360,6 +12360,9 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   padding: 54px 0;
 }
 
+footer {
+  padding: 25px 0;
+}
 footer .social a {
   text-decoration: none;
   margin-right: 15px;
@@ -12404,4 +12407,27 @@ footer .social a:hover {
   .about-section {
     padding: 102px 0 159px;
   }
+}
+.blog-section {
+  padding: 68px 0;
+}
+.blog-section .beauty-trands-item figure {
+  overflow: hidden;
+  transition: all 0.5 linear;
+}
+.blog-section .beauty-trands-item figure img:hover {
+  transform: scale(1.1);
+}
+.blog-section .beauty-trands-item .beauty-trands-info {
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  background-color: #fff;
+  padding: 20px 10px;
+  z-index: 5;
+}
+.blog-section .beauty-trands-item .beauty-trands-info .beauty-trands-date {
+  font-style: italic;
 }/*# sourceMappingURL=theme.css.map */
