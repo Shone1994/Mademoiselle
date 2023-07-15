@@ -30,3 +30,15 @@
             }
         }
 }
+
+//service-single style
+
+.service-single{
+    padding: 50px 0;
+}
+
+@media(min-width:992px){
+    .service-single{
+        padding: 180px 0;
+    }  
+}

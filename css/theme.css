@@ -12352,6 +12352,15 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
     display: block;
   }
 }
+.service-single {
+  padding: 50px 0;
+}
+
+@media (min-width: 992px) {
+  .service-single {
+    padding: 180px 0;
+  }
+}
 .our-team {
   margin-bottom: 67px;
 }
