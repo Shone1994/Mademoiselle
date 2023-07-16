@@ -1,0 +1,47 @@
+
+.contact-section{
+    padding: 104px 0;
+    .contact-section-item{
+        form{
+            .form-group{
+            .form-control{
+                padding: 10px;
+            }
+            }
+            textarea{
+                width: 100%;
+                resize: none;
+            }
+        }//form end
+    }//.contact-section-item end
+
+    .contact-map{
+        position: relative;
+        right: 0;
+        top: 0;
+        box-shadow: 0 0 10px rgba($primary, 0.5);
+    }
+
+}
+
+
+.contact-info{
+    padding: 70px 0;
+   nav{
+    a{
+        text-decoration: none;
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+    }
+   }
+}
+
+@media(min-width:1170px){
+    .contact-section{
+        .contact-map{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}

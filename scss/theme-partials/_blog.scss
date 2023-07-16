@@ -28,3 +28,25 @@
         }
     
 }
+
+//.blog-single
+
+.blog-single{
+    padding: 50px 0;
+    .blog-description{
+        p{
+            text-align: justify;
+        }
+        figure{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    .blog-single{
+        padding: 168px 0;
+    }   
+}

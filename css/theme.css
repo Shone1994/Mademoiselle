@@ -12439,4 +12439,53 @@ footer .social a:hover {
 }
 .blog-section .beauty-trands-item .beauty-trands-info .beauty-trands-date {
   font-style: italic;
+}
+
+.blog-single {
+  padding: 50px 0;
+}
+.blog-single .blog-description p {
+  text-align: justify;
+}
+.blog-single .blog-description figure img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blog-single {
+    padding: 168px 0;
+  }
+}
+.contact-section {
+  padding: 104px 0;
+}
+.contact-section .contact-section-item form .form-group .form-control {
+  padding: 10px;
+}
+.contact-section .contact-section-item form textarea {
+  width: 100%;
+  resize: none;
+}
+.contact-section .contact-map {
+  position: relative;
+  right: 0;
+  top: 0;
+  box-shadow: 0 0 10px rgba(208, 182, 182, 0.5);
+}
+
+.contact-info {
+  padding: 70px 0;
+}
+.contact-info nav a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 1170px) {
+  .contact-section .contact-map {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }/*# sourceMappingURL=theme.css.map */
