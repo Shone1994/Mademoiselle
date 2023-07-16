@@ -12488,4 +12488,21 @@ footer .social a:hover {
     right: 0;
     top: 0;
   }
+}
+.error-404 {
+  background-size: cover;
+}
+.error-404 .error-item {
+  padding: 280px 0;
+  text-align: center;
+}
+.error-404 .error-item h1, .error-404 .error-item .h1 {
+  padding: 0 !important;
+  margin-bottom: 6rem;
+}
+.error-404 .error-item a {
+  border-color: #fff;
+  color: #fff;
+  text-align: center;
+  align-items: center;
 }/*# sourceMappingURL=theme.css.map */
